@@ -1,0 +1,36 @@
+<!-- @dsCard group="Slides" viewport="1280x720" subtitle="4 карточки, одна акцентная" name="Сетка услуг" -->
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>
+html,body{margin:0}
+body{width:1280px;height:720px;overflow:hidden;background:var(--bg-page);color:var(--text-primary);font-family:var(--font-body)}
+.slide{width:1280px;height:720px;position:relative;box-sizing:border-box;padding:64px}
+.eyebrow{font-family:var(--font-mono);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.foot{position:absolute;left:64px;right:64px;bottom:40px;display:flex;justify-content:space-between;align-items:center;font-family:var(--font-mono);font-size:13px;color:var(--text-muted)}
+h1,h2,h3{font-family:var(--font-display);margin:0;letter-spacing:-.008em;text-wrap:pretty}
+</style></head><body>
+<div class="slide" style="display:flex;flex-direction:column;gap:36px">
+ <div><div class="eyebrow">Услуги</div><h2 style="font-size:52px;font-weight:700;margin-top:12px">Что мы делаем</h2></div>
+ <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;flex:1">
+  
+  <div style="background:var(--surface-card);color:var(--text-primary);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:24px;display:flex;flex-direction:column;gap:12px">
+   <div style="font-family:var(--font-mono);font-size:13px;letter-spacing:.14em;color:var(--accent)">01</div>
+   <div style="font-size:26px;font-weight:700;line-height:1.1">Бизнес-анализ</div>
+   <div style="font-size:16px;line-height:1.5;color:var(--text-secondary)">Финансовые показатели, рынок, конкуренты, требования.</div>
+  </div>
+  <div style="background:var(--surface-card);color:var(--text-primary);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:24px;display:flex;flex-direction:column;gap:12px">
+   <div style="font-family:var(--font-mono);font-size:13px;letter-spacing:.14em;color:var(--accent)">02</div>
+   <div style="font-size:26px;font-weight:700;line-height:1.1">Backend</div>
+   <div style="font-size:16px;line-height:1.5;color:var(--text-secondary)">Архитектура, интеграции, надёжность под нагрузкой.</div>
+  </div>
+  <div style="background:var(--surface-card);color:var(--text-primary);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:24px;display:flex;flex-direction:column;gap:12px">
+   <div style="font-family:var(--font-mono);font-size:13px;letter-spacing:.14em;color:var(--accent)">03</div>
+   <div style="font-size:26px;font-weight:700;line-height:1.1">Frontend</div>
+   <div style="font-size:16px;line-height:1.5;color:var(--text-secondary)">Интерфейсы веб-сервисов и панелей управления.</div>
+  </div>
+  <div style="background:var(--accent);color:#fff;border:1px solid transparent;border-radius:var(--radius-lg);padding:24px;display:flex;flex-direction:column;gap:12px">
+   <div style="font-family:var(--font-mono);font-size:13px;letter-spacing:.14em;color:rgba(255,255,255,.85)">04</div>
+   <div style="font-size:26px;font-weight:700;line-height:1.1">Mobile</div>
+   <div style="font-size:16px;line-height:1.5;color:rgba(255,255,255,.9)">iOS и Android, единая кодовая база.</div>
+  </div>
+ </div>
+ <div class="foot"><span>cubit.su</span><span>03</span></div>
+</div></body></html>

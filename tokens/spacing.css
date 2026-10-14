@@ -1,0 +1,21 @@
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  /* Сетки */
+  --slide-w: 1920px;
+  --slide-h: 1080px;
+  --slide-margin: 96px;
+  --grid-cols: 12;
+  --grid-gutter: 24px;
+  --container-max: 1280px;
+  --doc-margin: 20mm;
+}

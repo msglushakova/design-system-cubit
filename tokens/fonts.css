@@ -1,0 +1,29 @@
+/* Фирменная гарнитура HeliosExt — оба начертания получены от заказчика (assets/fonts/):
+   HeliosExt Bold — заголовки, HeliosExtC Regular — основной текст.
+   Golos Text остаётся в стеке вторым номером как страховка, если шрифт не загрузился.
+   Когда фирменный шрифт недоступен (бланк, чужой PowerPoint), гайдбук
+   официально разрешает Arial — он замыкает стек. */
+@font-face {
+  font-family: "HeliosExt";
+  src: url("../assets/fonts/HeliosExt-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HeliosExtC";
+  src: url("../assets/fonts/HeliosExtC-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  /* Заголовки — HeliosExt Bold */
+  --font-display: "HeliosExt", "HeliosExtC", Arial, Helvetica, sans-serif;
+  /* Основной текст — HeliosExtC Regular */
+  --font-body: "HeliosExtC", "Golos Text", Arial, Helvetica, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}

@@ -1,0 +1,52 @@
+:root {
+  /* Базовые фирменные цвета (брендбук) */
+  --orange-500: #F34925;   /* основной фирменный, RGB 243 73 37 */
+  --orange-600: #ED4401;   /* оранжевый презентаций / hover */
+  --orange-700: #C93A1E;   /* press */
+  --orange-100: #FDE1DB;
+  --grey-300: #D3D3D3;     /* RGB 211 211 211 */
+  --grey-100: #F3F3F3;
+  --ink-900: #000000;
+  --ink-850: #030502;      /* фон тёмной темы */
+  --ink-800: #020C13;      /* холодный тёмный, RGB 2 12 19 */
+  --ink-700: #1A1A1A;
+  --white: #FFFFFF;
+
+  /* Семантика — тёмная тема (основная) */
+  --bg-page: var(--ink-850);
+  --bg-elevated: #0B0E0C;
+  --bg-sunken: #000000;
+  --surface-card: rgba(255, 255, 255, 0.04);
+  --surface-card-hover: rgba(255, 255, 255, 0.07);
+  --border-subtle: rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.22);
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255, 255, 255, 0.64);
+  --text-muted: rgba(255, 255, 255, 0.40);
+  --text-accent: var(--orange-500);
+  --text-on-accent: #FFFFFF;
+
+  --accent: var(--orange-500);
+  --accent-hover: var(--orange-600);
+  --accent-press: var(--orange-700);
+  --accent-soft: rgba(243, 73, 37, 0.14);
+
+  --focus-ring: rgba(243, 73, 37, 0.55);
+  --success: #3BAE6B;
+  --warning: #E9A33B;
+  --danger: var(--orange-600);
+}
+
+/* Светлая тема — для документов, КП и печати */
+[data-theme="light"] {
+  --bg-page: var(--grey-100);
+  --bg-elevated: #FFFFFF;
+  --bg-sunken: var(--grey-300);
+  --surface-card: #FFFFFF;
+  --surface-card-hover: #FAFAFA;
+  --border-subtle: rgba(0, 0, 0, 0.10);
+  --border-strong: rgba(0, 0, 0, 0.24);
+  --text-primary: var(--ink-900);
+  --text-secondary: rgba(0, 0, 0, 0.64);
+  --text-muted: rgba(0, 0, 0, 0.42);
+}

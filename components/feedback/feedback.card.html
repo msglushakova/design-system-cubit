@@ -1,0 +1,17 @@
+<!-- @dsCard group="Components" viewport="700x280" subtitle="Dialog на затемнённом блюре" name="Feedback" -->
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><style>
+html,body{margin:0}body{background:var(--bg-page);color:var(--text-primary);font-family:var(--font-body);padding:24px}
+.grid{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid transparent;border-radius:var(--radius-pill);font-weight:600;font-size:16px;padding:12px 24px;cursor:pointer;font-family:inherit}
+.lbl{font-family:var(--font-mono);font-size:10px;color:var(--text-muted);letter-spacing:.06em;width:100%}
+</style></head><body>
+<div style="background:#000 var(--wave-dark) center/cover;border-radius:var(--radius-md);padding:28px;display:grid;place-items:center">
+ <div style="width:min(440px,100%);background:var(--bg-elevated);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-raised);padding:28px;display:flex;flex-direction:column;gap:14px">
+  <div style="font-size:24px;font-weight:700;letter-spacing:-.02em">Отправить заявку?</div>
+  <div style="font-size:16px;line-height:1.5;color:var(--text-secondary)">Мы ответим в течение рабочего дня.</div>
+  <div style="display:flex;gap:12px;justify-content:flex-end">
+   <button class="btn" style="border-color:var(--border-strong);background:transparent;color:var(--text-primary)">Отмена</button>
+   <button class="btn" style="background:var(--accent);color:#fff">Отправить</button>
+  </div>
+ </div>
+</div></body></html>

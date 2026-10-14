@@ -1,0 +1,35 @@
+<!-- @dsCard group="Components" viewport="700x260" subtitle="Button, IconButton, Badge, Tag, Card" name="Core" -->
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><style>
+html,body{margin:0}body{background:var(--bg-page);color:var(--text-primary);font-family:var(--font-body);padding:24px}
+.grid{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid transparent;border-radius:var(--radius-pill);font-weight:600;font-size:16px;padding:12px 24px;cursor:pointer;font-family:inherit}
+.lbl{font-family:var(--font-mono);font-size:10px;color:var(--text-muted);letter-spacing:.06em;width:100%}
+</style></head><body>
+<div class="grid">
+ <button class="btn" style="background:var(--accent);color:#fff">Обсудить проект</button>
+ <button class="btn" style="border-color:var(--border-strong);background:transparent;color:var(--text-primary)">Подробнее</button>
+ <button class="btn" style="background:transparent;color:var(--text-secondary)">Ghost</button>
+ <button class="btn" style="background:#fff;color:#000">Inverse</button>
+ <button class="btn" style="background:var(--accent);color:#fff;opacity:.4">Disabled</button>
+ <span style="width:40px;height:40px;border-radius:999px;background:var(--accent);color:#fff;display:inline-flex;align-items:center;justify-content:center">→</span>
+ <span style="width:40px;height:40px;border-radius:999px;background:var(--surface-card);border:1px solid var(--border-subtle);display:inline-flex;align-items:center;justify-content:center">←</span>
+</div>
+<div class="grid" style="margin-top:16px">
+ <span style="padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;background:rgba(59,174,107,.16);color:var(--success)">Сделано</span>
+ <span style="padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;background:var(--accent-soft);color:var(--accent)">В работе</span>
+ <span style="padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;background:var(--accent);color:#fff">H1 2023</span>
+ <span style="padding:6px 12px;border:1px solid var(--border-subtle);border-radius:4px;font-family:var(--font-mono);font-size:14px;color:var(--text-secondary)">Backend</span>
+ <span style="padding:6px 12px;border:1px solid var(--border-subtle);border-radius:4px;font-family:var(--font-mono);font-size:14px;color:var(--text-secondary)">Mobile ×</span>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px">
+ <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:20px">
+  <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;color:var(--accent)">01</div>
+  <div style="font-size:22px;font-weight:700;margin-top:8px">Бизнес-анализ</div>
+  <div style="font-size:15px;color:var(--text-secondary);margin-top:6px">Финансовые показатели, рынок, конкуренты.</div>
+ </div>
+ <div style="background:var(--accent);color:#fff;border-radius:var(--radius-lg);padding:20px;box-shadow:var(--shadow-accent)">
+  <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;opacity:.8">02</div>
+  <div style="font-size:22px;font-weight:700;margin-top:8px">Mobile-разработка</div>
+  <div style="font-size:15px;opacity:.9;margin-top:6px">iOS и Android, единая кодовая база.</div>
+ </div>
+</div></body></html>

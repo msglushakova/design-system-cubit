@@ -1,0 +1,41 @@
+:root {
+  /* Экранная шкала */
+  --text-hero: 88px;      /* титульные слайды */
+  --text-display: 64px;
+  --text-h1: 44px;
+  --text-h2: 32px;
+  --text-h3: 24px;
+  --text-lg: 20px;
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+  --text-stat: 160px;     /* большие цифры-акценты */
+
+  /* Шрифтовая иерархия гайдбука — % от кегля основного текста */
+  --hier-title: 260%;     /* HeliosExt Bold, 220–300% */
+  --hier-subtitle: 200%;  /* HeliosExt Bold, 150–250% */
+  --hier-body: 100%;      /* HeliosExtC Regular */
+  --hier-note: 85%;       /* HeliosExtC Regular, 80–90% */
+
+  /* Документы (брендбук, пункты) */
+  --doc-h1: 20pt;
+  --doc-h2: 18pt;
+  --doc-h3: 16pt;
+  --doc-body: 13pt;
+
+  --lh-tight: 1.08;
+  --lh-heading: 1.18;
+  --lh-body: 1.5;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-black: 900;
+  --fw-title: 700;   /* заголовки — HeliosExt Bold 700 */
+
+  --ls-hero: -0.015em;
+  --ls-heading: -0.008em;
+  --ls-body: 0em;
+  --ls-eyebrow: 0.14em;
+}
