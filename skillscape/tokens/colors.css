@@ -64,7 +64,7 @@
   --blue: var(--info);
 }
 
-/* Светлая тема — для документов и печати. Акцент темнее, чтобы держать контраст на белом. */
+/* Светлая тема — для документов и печати. Текстовый акцент темнее (5:1 на белом), заливки те же. */
 [data-theme="light"] {
   color-scheme: light;
   --bg-page: #FFFFFF;
@@ -78,9 +78,9 @@
   --text-primary: #1A1B1E;
   --text-secondary: #373A40;
   --text-muted: #5C5F66;
-  --text-on-accent: #FFFFFF;
-  --accent: #0CA678;
-  --accent-strong: #099268;
+  --text-on-accent: var(--teal-950);
+  --accent: #087F5B;
+  --accent-strong: var(--teal-600);
   --accent-deep: #087F5B;
   --accent-soft: #E6FCF5;
   --warning: #E67700;
