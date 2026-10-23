@@ -1,0 +1,7 @@
+/* SkillScape — дизайн-система продукта. Подключайте этот файл: он собирает все токены. */
+@import "tokens/fonts.css";
+@import "tokens/colors.css";
+@import "tokens/typography.css";
+@import "tokens/spacing.css";
+@import "tokens/effects.css";
+@import "components.css";

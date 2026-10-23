@@ -1,0 +1,89 @@
+/* Цвета SkillScape. Основа — тёмная тема приложения; бирюзовый #12B886 — фирменный (theme-color сайта). */
+:root {
+  color-scheme: dark;
+
+  /* палитра */
+  --gray-950: #141517;
+  --gray-900: #1A1B1E;
+  --gray-850: #202124;
+  --gray-800: #25262B;
+  --gray-750: #2C2E33;
+  --gray-700: #373A40;
+  --gray-600: #5C5F66;
+  --gray-500: #909296;
+  --gray-300: #C1C2C5;
+  --gray-100: #E9ECEF;
+  --teal-950: #08241C;
+  --teal-900: #0C3B30;
+  --teal-600: #12B886;
+  --teal-500: #20C997;
+  --teal-300: #63E6BE;
+  --yellow-500: #FAB005;
+  --blue-300: #74C0FC;
+  --red-400: #FF6B6B;
+
+  /* поверхности */
+  --bg-page: var(--gray-900);
+  --bg-sunken: var(--gray-950);
+  --bg-elevated: var(--gray-850);
+  --surface-card: var(--gray-800);
+  --surface-card-glass: rgba(37, 38, 43, .86);
+  --surface-muted: var(--gray-750);
+
+  /* линии */
+  --border-subtle: var(--gray-700);
+  --border-strong: var(--gray-600);
+
+  /* текст: не больше 3 цветов на экран */
+  --text-primary: var(--gray-100);
+  --text-secondary: var(--gray-300);
+  --text-muted: var(--gray-500);
+  --text-on-accent: var(--teal-950);
+
+  /* акцент */
+  --accent: var(--teal-500);
+  --accent-strong: var(--teal-600);
+  --accent-deep: var(--teal-300);
+  --accent-soft: var(--teal-900);
+
+  /* статусы */
+  --success: var(--teal-500);
+  --warning: var(--yellow-500);
+  --info: var(--blue-300);
+  --danger: var(--red-400);
+
+  /* короткие имена из презентации «SkillScape для отделов» */
+  --bg: var(--bg-page);
+  --card: var(--surface-card);
+  --line: var(--border-subtle);
+  --line-strong: var(--border-strong);
+  --ink: var(--text-primary);
+  --ink-2: var(--text-secondary);
+  --muted: var(--text-muted);
+  --warn: var(--warning);
+  --blue: var(--info);
+}
+
+/* Светлая тема — для документов и печати. Акцент темнее, чтобы держать контраст на белом. */
+[data-theme="light"] {
+  color-scheme: light;
+  --bg-page: #FFFFFF;
+  --bg-sunken: #F1F3F5;
+  --bg-elevated: #F8F9FA;
+  --surface-card: #FFFFFF;
+  --surface-card-glass: rgba(255, 255, 255, .9);
+  --surface-muted: #F1F3F5;
+  --border-subtle: #DEE2E6;
+  --border-strong: #ADB5BD;
+  --text-primary: #1A1B1E;
+  --text-secondary: #373A40;
+  --text-muted: #5C5F66;
+  --text-on-accent: #FFFFFF;
+  --accent: #0CA678;
+  --accent-strong: #099268;
+  --accent-deep: #087F5B;
+  --accent-soft: #E6FCF5;
+  --warning: #E67700;
+  --info: #1C7ED6;
+  --danger: #E03131;
+}

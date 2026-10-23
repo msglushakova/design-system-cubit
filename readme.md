@@ -27,6 +27,7 @@
 | `slides/` | 8 шаблонов слайдов 16:9 |
 | `CUBIT Brand Guide.dc.html` | живая страница-гайд |
 | `SKILL.md` | обёртка для Claude Code |
+| `skillscape/` | Дизайн-система продукта SkillScape (отдельная, тёмно-бирюзовая) — см. `skillscape/README.md` |
 
 ## Логотип
 
