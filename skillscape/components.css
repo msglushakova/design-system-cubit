@@ -18,7 +18,7 @@
 
 /* кнопки (как на skillscape.ru: «Попробовать бесплатно», «Запросить демо») */
 .ss-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 20px; border-radius: var(--radius-sm); border: 1px solid transparent; font: 600 15px/1 var(--font-body); cursor: pointer; text-decoration: none; transition: background var(--duration-fast), border-color var(--duration-fast); }
-.ss-btn--primary { background: var(--accent-strong); color: #fff; }
+.ss-btn--primary { background: var(--accent-strong); color: var(--text-on-accent); }
 .ss-btn--primary:hover { background: var(--accent); }
 .ss-btn--secondary { background: transparent; color: var(--text-primary); border-color: var(--border-strong); }
 .ss-btn--secondary:hover { border-color: var(--text-muted); }
