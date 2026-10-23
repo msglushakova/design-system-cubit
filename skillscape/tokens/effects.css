@@ -23,3 +23,7 @@
   --glow-corner: radial-gradient(circle at 92% 108%, rgba(12,166,120,.12) 0%, transparent 42%);
   --glow-hero: radial-gradient(circle at 100% 100%, rgba(12,166,120,.18) 0%, transparent 50%);
 }
+
+/* Тень плашки QR на визитке: на тёмном — нет, на светлом — мягкая */
+:root { --contact-qr-shadow: none; }
+[data-theme="light"] { --contact-qr-shadow: 0 1px 2px rgba(16,24,40,.06), 0 8px 24px rgba(16,24,40,.08); }

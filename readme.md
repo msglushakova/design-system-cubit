@@ -24,7 +24,8 @@
 | `assets/` | логотипы RU/EN (градиентные и плоские), знак, треугольный паттерн, «волна», иконка ОТК, `fonts/HeliosExt-Bold.otf` |
 | `guidelines/` | 19 карточек-образцов: логотип и его версии, знак, паттерн, цвета, типографика и иерархия, сетка, радиусы, тени |
 | `components/` | `core/` (Button, IconButton, Card, Badge, Tag), `forms/` (Input, Select, Checkbox, Switch), `navigation/` (Tabs), `feedback/` (Dialog) |
-| `slides/` | 8 шаблонов слайдов 16:9 |
+| `slides/` | 10 шаблонов слайдов 16:9, включая визитку `ContactSlide` (светлая) и `ContactSlideDark` |
+| `assets/people/` | фото и QR-визитки для слайда-визитки; QR делает `tools/make-vcard-qr.py` |
 | `CUBIT Brand Guide.dc.html` | живая страница-гайд |
 | `SKILL.md` | обёртка для Claude Code |
 | `skillscape/` | Дизайн-система продукта SkillScape (отдельная, тёмно-бирюзовая) — см. `skillscape/README.md` |
