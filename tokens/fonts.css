@@ -18,12 +18,13 @@
   font-display: swap;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap");
 
 :root {
   /* Заголовки — HeliosExt Bold */
   --font-display: "HeliosExt", "HeliosExtC", Arial, Helvetica, sans-serif;
   /* Основной текст — HeliosExtC Regular */
   --font-body: "HeliosExtC", "Golos Text", Arial, Helvetica, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  /* Служебные надписи (надзаголовки, колонтитулы, нумерация) — тоже HeliosExtC; моноширинный не используется */
+  --font-mono: var(--font-body);
 }
