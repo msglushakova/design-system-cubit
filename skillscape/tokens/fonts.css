@@ -1,0 +1,6 @@
+/* SkillScape использует системные шрифты (как приложение и skillscape.ru): никаких веб-шрифтов грузить не нужно. */
+:root {
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-body);
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}

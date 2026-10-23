@@ -1,0 +1,34 @@
+/* Типографика SkillScape. Значения «slide-*» — для холста 1600×900, «ui-*» — для интерфейса. */
+:root {
+  /* слайды */
+  --slide-h1: 92px;      /* обложка; на обложке со скрином — 64px */
+  --slide-h2: 58px;      /* заголовок слайда; длинный — 46px */
+  --slide-h3: 26px;
+  --slide-lead: 26px;
+  --slide-body: 22px;
+  --slide-small: 19px;
+  --slide-eyebrow: 17px;
+  --slide-foot: 15px;
+
+  /* интерфейс */
+  --ui-h1: 32px;
+  --ui-h2: 24px;
+  --ui-h3: 18px;
+  --ui-body: 15px;
+  --ui-small: 13px;
+  --ui-caption: 12px;
+
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-heavy: 800;
+
+  --leading-tight: 1.04;
+  --leading-snug: 1.2;
+  --leading-body: 1.45;
+
+  --tracking-display: -.025em;
+  --tracking-eyebrow: .18em;
+  --tracking-tag: .16em;
+  --tracking-pill: .08em;
+}

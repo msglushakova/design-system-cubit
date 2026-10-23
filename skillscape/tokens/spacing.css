@@ -1,0 +1,30 @@
+:root {
+  /* шаг 4px */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 22px;
+  --space-6: 28px;
+  --space-7: 36px;
+  --space-8: 48px;
+  --space-9: 64px;
+
+  /* радиусы */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 12px;    /* callout, кнопки навигации */
+  --radius-shot: 14px;  /* рамка скриншота */
+  --radius-lg: 16px;    /* карточки */
+  --radius-xl: 20px;    /* слайд */
+  --radius-phone: 42px;
+  --radius-pill: 999px;
+
+  /* холст слайда */
+  --slide-w: 1600px;
+  --slide-h: 900px;
+  --slide-pad-top: 84px;
+  --slide-pad-x: 104px;
+  --slide-pad-bottom: 72px;
+  --slide-foot-bottom: 34px;
+}

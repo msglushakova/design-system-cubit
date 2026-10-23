@@ -1,0 +1,28 @@
+<!-- @dsCard group="Slides" viewport="1280x720" subtitle="Визитка — тёмная: чёрный слайд, тёмная волна" name="Визитка (тёмная)" -->
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>
+html,body{margin:0}
+body{width:1280px;height:720px;overflow:hidden;background:var(--bg-page);color:var(--text-primary);font-family:var(--font-body)}
+.slide{width:1280px;height:720px;position:relative;box-sizing:border-box;padding:56px 64px;background:linear-gradient(180deg,#030502 0%,#030502 50%,rgba(3,5,2,0) 88%),var(--wave-dark) center bottom/cover no-repeat,#030502}
+h1{font-family:var(--font-display);font-weight:700;font-size:52px;line-height:1.05;color:var(--accent);margin:0;letter-spacing:-.01em;max-width:900px}
+.card{display:grid;grid-template-columns:300px 260px 1fr;gap:32px;align-items:end;margin-top:56px}
+.photo{width:300px;height:300px;object-fit:cover;display:block;border-radius:var(--radius-lg)}
+.qr{width:260px;height:260px;background:#fff;padding:16px;box-sizing:border-box;border-radius:var(--radius-lg);box-shadow:var(--contact-qr-shadow)}
+.qr img{width:100%;height:100%;display:block}
+.who{align-self:start;padding-top:4px}
+.who b{display:block;font-family:var(--font-display);font-size:34px;line-height:1.1}
+.who .role{font-family:var(--font-display);font-weight:700;font-size:26px;line-height:1.15;margin-top:8px}
+.who .c{font-size:20px;line-height:1.6;margin-top:28px;color:var(--text-secondary)}
+.logo{position:absolute;right:64px;top:60px;height:34px}
+.num{position:absolute;right:64px;bottom:36px;font-family:var(--font-display);font-weight:700;font-size:40px;color:#fff}
+</style></head><body>
+<div class="slide">
+ <img class="logo" src="../assets/logo-kubit-gradient-dark.svg" alt="КУБИТ">
+ <h1>Открыты к сотрудничеству и&nbsp;новым идеям!</h1>
+ <div class="card">
+  <img class="photo" src="../assets/people/glushakova-orange.jpg" alt="Анастасия Глушакова">
+  <div class="qr"><img src="../assets/people/qr-glushakova.svg" alt="QR-визитка"></div>
+  <div class="who"><b>Анастасия Глушакова</b><div class="role">Менеджер продукта</div>
+  <div class="c">+7 951 610-56-93<br>glushakova_ad@cubit.su</div></div>
+ </div>
+ <div class="num">11</div>
+</div></body></html>
